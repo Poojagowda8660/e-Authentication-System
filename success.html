@@ -1,0 +1,210 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>{{ message }}</h1>
+    <a href="/" class="button">Go to Home</a>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <!-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .message {
+            font-size: 24px;
+            color: #4caf50;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style> -->
+    <!-- <style>/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Success Container Styling */
+.success-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Success Heading */
+h1 {
+    font-size: 3rem;
+    color: #4caf50;
+    text-shadow: 0 4px 10px rgba(76, 175, 80, 0.6);
+    margin-bottom: 20px;
+    animation: pulse 1.5s infinite alternate;
+}
+
+/* Success Message */
+p {
+    font-size: 1.5rem;
+    color: #f0f0f0;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    animation: textFade 2s ease-in-out;
+}
+
+/* Success Image */
+.success-image {
+    max-width: 150px;
+    margin: 20px auto;
+    display: block;
+    animation: bounce 2s infinite ease-in-out;
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.5));
+}
+
+/* Button Styling */
+.return-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease;
+    animation: buttonGlow 2s infinite alternate;
+}
+
+.return-button:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 81, 47, 0.8), 0 4px 15px rgba(221, 36, 118, 0.6);
+}
+
+/* Animations */
+
+/* Fade in the container */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Text fade effect */
+@keyframes textFade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Pulse effect for heading */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        text-shadow: 0 4px 10px rgba(76, 175, 80, 0.4);
+    }
+    100% {
+        transform: scale(1.1);
+        text-shadow: 0 6px 15px rgba(76, 175, 80, 0.8);
+    }
+}
+
+/* Glow animation for button */
+@keyframes buttonGlow {
+    0% {
+        box-shadow: 0 6px 15px rgba(255, 81, 47, 0.6), 0 4px 10px rgba(221, 36, 118, 0.4);
+    }
+    100% {
+        box-shadow: 0 10px 25px rgba(255, 81, 47, 0.8), 0 6px 20px rgba(221, 36, 118, 0.6);
+    }
+}
+
+/* Bounce effect for image */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .success-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .return-button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+</style>   -->
+
+</head>
+<body>
+    <div class="container">
+        <div class="message">{{ message }}</div>
+        <div class="image-container">
+            <img src="https://media.istockphoto.com/id/1456782892/photo/secure-access-to-personal-information-of-network-users-data-protection-and-secured-internet.jpg?s=612x612&w=0&k=20&c=weaG_pDAqqCqX5o2o07E6bJUeTkOq6qij7KxcC6IyGQ=" alt="Success Image">
+            <center> <p>You have successfully logged in. Enjoy exploring the system.</p>
+                </center>
+        </div>
+    </div>
+</body>
+</html>
+
