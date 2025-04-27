@@ -27,7 +27,7 @@ Access Granted: On successful verification, access is provided to the system.
 ⚡ Getting Started
 Clone the repository:
 bash
-git clone https://github.com/yourusername/e-authentication-system.git
+git clone https://github.com/Poojagowda8660/e-authentication-system.git
 
 Install required libraries:
 bash
